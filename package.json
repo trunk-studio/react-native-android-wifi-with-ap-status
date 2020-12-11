@@ -1,5 +1,5 @@
 {
-  "name": "react-native-android-wifi",
+  "name": "react-native-android-wifi-with-ap-status",
   "version": "0.0.41",
   "description": "A react-native implementation for viewing and connecting to Wifi networks on Android devices.",
   "main": "index.js",
@@ -14,10 +14,9 @@
     "wifi",
     "connection"
   ],
-  "author": "Ferran Reventos <devstepbcn@gmail.com>",
   "license": "ISC",
-  "repository": "https://github.com/devstepbcn/react-native-android-wifi",
-  "bugs": "https://github.com/devstepbcn/react-native-android-wifi/issues",
+  "repository": "https://github.com/trunk-studio/react-native-android-wifi-with-ap-status",
+  "bugs": "https://github.com/trunk-studio/react-native-android-wifi-with-ap-status/issues",
   "peerDependencies": {
     "react-native": ">=0.13"
   },
