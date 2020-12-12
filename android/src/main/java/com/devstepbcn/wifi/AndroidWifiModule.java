@@ -479,14 +479,10 @@ public class AndroidWifiModule extends ReactContextBaseJavaModule {
 
     private boolean _isApOn() {
         try {
-            if (this.canwriteFlag) {
-                Method method = wifi.getClass().getDeclaredMethod("isWifiApEnabled");
-                method.setAccessible(true);
-                return (Boolean) method.invoke(wifi);
-            } else {
-                this.forceWifiUsage(true);
-                this._isApOn()
-            }
+
+			Method method = wifi.getClass().getDeclaredMethod("isWifiApEnabled");
+			method.setAccessible(true);
+			return (Boolean) method.invoke(wifi);
         } catch (Throwable e) {
             return false;
         }
